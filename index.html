@@ -9,7 +9,24 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play PLANET NYC.</tw-noscript></noscript></tw-story>
-<tw-storydata name="PLANET NYC" startnode="1" creator="Twine" creator-version="2.3.16" ifid="AB758C38-C87A-45AE-B790-E3FC22974527" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="686.5,494" size="100,100">(set:$name to (prompt: &quot;Enter your name: &quot;, &quot;Default&quot;))
+<tw-storydata name="PLANET NYC" startnode="1" creator="Twine" creator-version="2.3.16" ifid="AB758C38-C87A-45AE-B790-E3FC22974527" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">window.playSnap = (function beep() {
+	var snd = new
+Audio("https://soundbible.com/grab.php?id=563&type=mp3");
+	return function() {
+		snd.play();
+	}
+})();
+
+window.playWrong = (function beep() {
+	var snd = new
+Audio("https://soundbible.com/grab.php?id=1642&type=mp3");
+	return function() {
+		snd.play();
+	}
+})();
+
+
+</script><tw-passagedata pid="1" name="Start" tags="" position="686,495" size="100,100">(set:$name to (prompt: &quot;Enter your name: &quot;, &quot;Default&quot;))
 
 &lt;img src=&quot;https://github.com/YekinniAjo/ABDULYEKINNITWINE-22/blob/main/NYC-GALACTIC-SPACE-STATION.jpg?raw=true&quot;&gt;
 
@@ -17,12 +34,94 @@
 
 (text-colour:red)[&#39;&#39;Drop Down to:&#39;&#39;]
 [[Yankee Stadium-&gt;Yankee Stadium]]
-[[28th Street-&gt;28th Street]]</tw-passagedata><tw-passagedata pid="2" name="Yankee Stadium" tags="" position="686.5,644" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/ABDULYEKINNITWINE-22/blob/main/IMAGES/WALK-ON-YANKEE-LANE-(1).gif?raw=true&quot;&gt;
+[[28th Street-&gt;28th Street]]</tw-passagedata><tw-passagedata pid="2" name="Yankee Stadium" tags="" position="686,644" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/ABDULYEKINNITWINE-22/blob/main/IMAGES/WALK-ON-YANKEE-LANE-(1).gif?raw=true&quot;&gt;
 
 (text-colour:red)+(bg:black)[&#39;&#39;SO YOU HAVE CHOSEN THE PATH OF THE YANKEE&#39;&#39;]
 
-[[FOLLOW ME -&gt;Yankee Stadium 161st Street]]</tw-passagedata><tw-passagedata pid="3" name="28th Street" tags="" position="806.5,644" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/ABDULYEKINNITWINE-22/blob/main/IMAGES/Junya.gif?raw=true&quot;&gt;</tw-passagedata><tw-passagedata pid="4" name="Yankee Stadium 161st Street" tags="" position="685.5,794" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/ABDULYEKINNITWINE-22/blob/main/IMAGES/Yankee-stadium-from-far.jpg?raw=true&quot;&gt;
-&#39;&#39;I&#39;d assume that not many of you are familiar with the New York Yankees and their history. They are one of the most storied and succesful teams in MLB History&#39;&#39;(text-colour:white)[Your Text Here]</tw-passagedata></tw-storydata>
+[[FOLLOW ME -&gt;Yankee Stadium 161st Street]]</tw-passagedata><tw-passagedata pid="3" name="28th Street" tags="" position="805,644" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/Junya2.gif?raw=true&quot;&gt;
+&#39;&#39;SO YOU HAVE DROPPED DOWN TO 28TH STREET, YOU HAVE NOW CHOSEN A QUEST WITH ABDULYEKINNI AND HIS FRIEND BETHANY. IT HAS BEEN A MONTH AND SOME CHANGE SINCE ABDUL HAS SEEN BETHANY, AND SHE HAS COME TO PLANET NYC FOR BUSINESS FROM A FAR WAY PLANET CALLED ROCHESTER. ON OUR WAY TO VISIT BETHANY WE SEE A MAN&#39;&#39;
+
+[[INTERACT WITH MAN-&gt;BIKER]]
+
+&lt;audio src=&quot;https://soundbible.com/grab.php?id=1266&amp;type=mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="4" name="Yankee Stadium 161st Street" tags="" position="685,794" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/ABDULYEKINNITWINE-22/blob/main/IMAGES/Yankee-stadium-from-far.jpg?raw=true&quot;&gt;
+&#39;&#39;I&#39;d assume that not many of you are familiar with the New York Yankees and their history. They are one of the most storied and succesful teams in MLB History. This is the new Yankee Stadium Above. The same year the Yankees won the World Series, they opened up their new Stadium Across the Street from where the old one stood. Now I&#39;ll ask you a question. What year was the Inauguaral Season of the Yankees&#39;&#39;(text-colour:white)
+
+
+
+1.[[2009-&gt;You&#39;re Right !!]]
+2.[[2020-&gt;HELL NA]]
+3.[[2017-&gt;I HATE THE ASTROS ]]</tw-passagedata><tw-passagedata pid="5" name="You&#39;re Right !!" tags="" position="685,944" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/PATCH.jpg?raw=true&quot;&gt;
+
+(text-colour:white)[&#39;&#39;CORRECT !!!&#39;&#39;]
+
+(text-colour:white)[&#39;&#39;IN THE YEAR 2009 THE NEW YORK YANKESS DEFEATED THE PHILLIES 4-2 IN A 6 GAME SERIES TO WIN THEIR 27TH WORLD SERIES !!&#39;&#39;]
+
+[[GO BACK-&gt;Yankee Stadium 161st Street]]</tw-passagedata><tw-passagedata pid="6" name="HELL NA" tags="" position="565,944" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/TampaRays.jpg?raw=true&gt;&quot;
+(text-colour:red)[&#39;&#39;WRONG !!&#39;&#39;]
+
+(text-colour:white)[&#39;&#39;The Yankees were more than capable of winning against the Tampa bay Rays but unfortunately they lost to them 3-2. Putting another whole in Yankee Fans&#39; Hearts.&#39;&#39;]
+
+[[GO BACK-&gt;Yankee Stadium 161st Street]]</tw-passagedata><tw-passagedata pid="7" name="I HATE THE ASTROS " tags="" position="805,944" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/SAD-YANKEE.jpg?raw=true&quot;&gt;
+
+(text-colour:red)[&#39;&#39;Wrong&#39;&#39;]
+
+(text-colour:orange)[&#39;&#39;Where do I start? When I think about the AssTros(Pun intended) I get upset because they clearly cheated this year. I was even more upset that the Yankees allowed them to beat us in the ALCS in back to back years. Jose Altuve from the Astros is a phenomonal player though. I have faith that the Yanks will take it home this year. SINCE YOU HAVE CHOSEN THE MOST DIABOLICAL ANSWER, GAME OVER AND YOU MUST START FROM THE BEGINNING !!&#39;&#39;]
+
+[[GO BACK-&gt;Start]]</tw-passagedata><tw-passagedata pid="8" name="BIKER" tags="" position="806,794" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/biker.jpg?raw=true&quot;&gt;
+
+&#39;&#39;&quot;Hey I&#39;m the Biker, I was walking around 28th street and I saw Abdul snapping some photos of himself and the area on his Canon Camera. For some reason apart of me just wanted to talk to him and tell him how proud of him I am. As black men we aren&#39;t given opprtunities to excel in that industry but here he was striving to better himself at a new quest. I hope you follow in his footstep and I wish you luck on the next part of your Quest&quot; &#39;&#39;
+
+(t8n-depart:&quot;dissolve&quot;)[[PROCEED FORWARD-&gt;STARBUCKS ]]
+
+
+</tw-passagedata><tw-passagedata pid="9" name="STARBUCKS " tags="" position="925,945" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/starbucks.jpg?raw=true&quot;&gt;
+
+(text-colour:white)[&#39;&#39;&quot;Hi, Nice of you to join us in Starbucks, I&#39;m Bethany nice to meet you, We are currently on our way to find something to do in the city. I am not from here so I&#39;ll let Abdul lead the way around the city, but first I have to change&quot;&#39;&#39;]
+
+(t8n-depart:&quot;blur&quot;)[[GO TO BETHANY&#39;S APARTMENT-&gt;THE APARTMENT ]]
+
+&lt;audio src=&quot;https://soundbible.com/grab.php?id=1664&amp;type=mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="10" name="THE APARTMENT " tags="" position="922,1095" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/FIRE-ESCAPE.jpg?raw=true&gt;&quot;
+
+(text-colour:red)[&#39;&#39;SO NOW WE&#39;RE WAITING FOR BETHANY TO CHANGE AND ABDUL ASKS FOR A PICTURE. CLICK ON TAKE PICTURE TO SNAP PHOTO&#39;&#39;]
+
+&lt;span onmouseover=&quot;playSnap()&quot;&gt;[Take Picture]!&lt;/span&gt; 
+
+(t8n-depart:&quot;slide-left&quot;)[[SHES FINISHED LETS HEAD TO THE TRAIN-&gt;TRAIN PLATFORM]]</tw-passagedata><tw-passagedata pid="11" name="TRAIN STATION" tags="" position="920,1410" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/train.jpg?raw=true&quot;&gt;
+
+&#39;&#39;WHERE ARE WE GOING? SELECT BELOW:&#39;&#39;
+
+&lt;span onclick=&quot;playWrong()&quot;&gt;Bronx!&lt;/span&gt; 
+&lt;span onclick=&quot;playWrong()&quot;&gt;Jersey!&lt;/span&gt;
+
+(t8n-depart:&quot;dissolve&quot;)[[Brooklyn-&gt;Brooklyn]]
+
+
+
+
+
+
+&lt;audio src=&quot;https://soundbible.com/grab.php?id=1693&amp;type=mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="12" name="TRAIN PLATFORM" tags="" position="922,1268" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/TRAIN-PLATFORM.jpg?raw=true&quot;&gt;
+
+(text-colour:white)+(bg:(hsl:0,0,0,0.7))[&#39;&#39;We are now outside and it is her first time taking a PLANET NYC subway. You laugh at her for her primitive behavior. She doesn&#39;t know how to swipe her MetroCard. Eventually she gets through&#39;&#39;]
+[[GO THROUGH TURNSTILE -&gt;TRAIN STATION]]
+
+&lt;audio src=&quot;https://soundbible.com/grab.php?id=386&amp;type=mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="13" name="Brooklyn" tags="" position="920,1559" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/Brooklyn.jpg?raw=true&quot;&gt;
+
+&#39;&#39;CORRECT&#39;&#39;
+
+&#39;&#39;WE HAVE NOW REACHED BROOKLYN AND WE ARE NOW LOOKING FOR A SPOT TO HANG OUT. WE ARE IN BROOKLYN AND ABDUL DECIDES FOR US TO GO TO BROOKLYN BRIDGE WE TAKE OUT OUR PHONES AND HEAD TOWARDS THAT DIRECTION. WHILE ON OUR WAY WE SEE A COOL LANDMARK&#39;&#39;
+[[DUMBO-&gt;DUMBO]]</tw-passagedata><tw-passagedata pid="14" name="DUMBO" tags="" position="920,1709" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/DUMBO.jpg?raw=true&quot;&gt;
+&#39;&#39;FUN FACT, THE ARCHITECT OF THE BROOKLYN BRIDGE WALKED A BUNCH OF ELEPHANTS AND CAMELS ACROSS THE BROOKLYN BRIDGE TO TEST HOW STURDY IT WAS. MY THEORY IS THAT AREA WAS NAMED DUMBO AFTER THE ELEPHANT. IF NOT THERE HAS TO BE SOME SORT OF CORRELATION&#39;&#39;
+
+[[THE BRIDGE-&gt;BROOKLYN BRIDGE]]</tw-passagedata><tw-passagedata pid="15" name="BROOKLYN BRIDGE" tags="" position="1061,1702" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/CAP-BRIDGE.jpg?raw=true&quot;&gt;
+&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/WalkinBridge.jpg?raw=true&quot;&gt;
+
+&#39;&#39;WE ARE FINALLY HERE AND WE ARE GOING TO SNAP A PICTURE&#39;&#39;
+
+&lt;span onmouseover=&quot;playSnap()&quot;&gt;[Take Picture]!&lt;/span&gt;
+[[LETS GO-&gt;THE PARK ]]</tw-passagedata><tw-passagedata pid="16" name="THE PARK " tags="" position="1063,1852" size="100,100">&lt;img src=&quot;https://github.com/YekinniAjo/AbdulTwine-22/blob/main/images/LOOKIN-IN-THE-DISTANCE.jpg?raw=true&quot;&gt;
+&#39;&#39;THANKS FOR JOINING US ON THIS QUEST THROUGH THE CITY I HOPE TO SEE YOU AGAIN GOODBYE&#39;&#39;
+[[GO BACK-&gt;Start]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
